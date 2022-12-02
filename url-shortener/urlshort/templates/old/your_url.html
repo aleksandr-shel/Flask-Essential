@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    URL for "{{code}}"
+{% endblock %}
+
+
+{% block main %}
+<h1>Your URL</h1>
+
+<div>
+    {{code}}
+</div>
+
+<p>
+    <a href="/">
+        Home
+    </a>
+</p>
+{% endblock %}

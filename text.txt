@@ -1,0 +1,16 @@
+#setup virtual env
+pipenv install
+
+#start virtual env
+pipenv shell
+
+#start flask app
+pipenv install flask
+set FLASK_APP=hello.py
+$env:FLASK_APP="hello.py"
+flask run
+
+
+#request
+request.args for get
+request.form for post
